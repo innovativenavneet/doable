@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Doable",
+    "slug": "doable",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "doable",
+    "userInterfaceStyle": "dark",
+    "sdkVersion": "54.0.0",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0F12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doable.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F0F12"
+      },
+      "package": "com.doable.app"
+    },
+    "plugins": ["expo-router", "expo-asset"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
